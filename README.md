@@ -4,7 +4,7 @@ One to One Relationship (1:1)
 CREATE TABLE Country
 (
 CountryID INT IDENTITY PRIMARY KEY,
-Name VARCHAR(100),
+Name VARCHAR(100)
 );
 
 CREATE TABLE Capital
@@ -22,5 +22,8 @@ VALUES ('Ghana');
 
 INSERT INTO Country (Name)
 VALUES ('South Africa');
+
+
+
 
 
